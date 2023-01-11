@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la vida</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Juego de la vida con HTML5, CSS3 y JavaScript</h1>
+    <a href="https://es.wikipedia.org/wiki/Juego_de_la_vida">&gt; Ver instrucciones aquí &lt;</a>
+    <canvas width="2048" height="1536"></canvas>
+
+    <div class="botonera">
+        <button onclick="limpiarTablero()">Limpiar</button>
+        <button onclick="siguientePaso()">Un paso</button>
+        <button id="botonAuto" onclick="activarAuto()">Automático</button>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    <div>Copyright &copy; Jhon Michael Medina Cabrera <a href="https://github.com/WellJhoon/The-Game-of-life">Ver en GitHub.  </a> </div>
+</body>
+</html>
